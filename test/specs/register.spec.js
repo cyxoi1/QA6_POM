@@ -2,7 +2,7 @@ import RegisterPage from '../pages/RegisterPage';
 import { text, user } from '../data/register.data';
 
 describe('USER REGISTER', () => {
- // before(() => {
+  before(() => {
     RegisterPage.open();
   });
 
